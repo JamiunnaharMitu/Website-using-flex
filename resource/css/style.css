@@ -1,0 +1,182 @@
+/* ************************ */
+/* BASIC SETUP */
+/* ************************ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    color: #000;
+}
+/* ************************ */
+/* REUSABLE COMPONENT */
+/* ************************ */
+h2{
+    margin-top: 150px;
+    margin-bottom: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+}
+h2::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 85px;
+    background: #0872b9;
+    margin: auto;
+    margin-top: 1rem;
+}
+h3{
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;  
+}
+p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: #000;
+}
+ul li{
+    list-style-type: none; 
+}
+ul li a{
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+   margin: 10px;
+}
+nav ul li a{
+    color: #fff;
+}
+.btn{
+    width: 150px;
+    padding: 15px 0;
+    margin-left: 45%;
+    margin-top: 100px;
+    background: rgb(219, 54, 54);
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+    background: rgb(177, 58, 58);
+}
+/* ************************ */
+/* HEADER */
+/* ************************ */
+header{
+    background: rgb(110, 51, 51);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-area{
+    background: rgba(137, 248, 239, 0.3);
+}
+/* ************************ */
+/* ABOUT */
+/* ************************ */
+.about{
+    background: rgba(7, 7, 7, 0.07);
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.about .about-column{
+    flex-basis: 42%;
+    max-width: 670px;
+}
+.about-img{
+    border: 1px solid rgb(216, 213, 213);
+    text-align: center;
+}
+.about img{
+    width: 350px;
+}
+.about p{
+    text-align: justify;
+    width: 90%;
+    margin-top: 80px;
+}
+/* ************************ */
+/* SERVICE */
+/* ************************ */
+.service-section{
+    background: rgba(7, 7, 7, 0.07);
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.service{
+    flex-basis: 32%;
+    max-width: 270px;
+}
+.service-section img{
+    width: 100%;
+}
+/* ************************ */
+/* TEAM */
+/* ************************ */
+.team{
+    background: rgba(7, 7, 7, 0.07);
+    padding: 100px 0;
+    
+}
+.team-member{
+    display: flex;
+    justify-content: space-evenly;
+}
+.team img{
+    width: 200px;   
+}
+.team-img{
+    border: 1px solid rgb(216, 204, 204);
+}
+.team-desc{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.team-desc span{
+   font-size: 18px;
+   color: black;
+}
+/* ************************ */
+/* FOOTER */
+/* ************************ */
+.footer{
+    background: rgb(110, 51, 51);
+    padding: 20px 0;
+    margin-top: 70px;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.footer ul li a{
+    color: #fff;
+    margin: 0 30px;
+}
+
